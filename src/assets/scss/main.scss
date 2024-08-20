@@ -1,8 +1,13 @@
-//variables 
+//variables
 @import '../abstract/variables';
+
+//
+@import '../scss/page/why-choose-us';
 
 //components
 @import '../scss/components/appbar';
+@import '../scss/components/intro-section';
+@import '../scss/components/our-team';
 
 //vendor
 @import '../scss/vendor/vendor.scss';

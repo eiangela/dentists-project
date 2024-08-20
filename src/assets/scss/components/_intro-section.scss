@@ -1,0 +1,20 @@
+.image-right {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-learn {
+  color: $orange !important;
+}
+
+@media (max-width: 600px) {
+  .image-right {
+    width: 92%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .image-right {
+    width: 90%;
+  }
+}

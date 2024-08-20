@@ -1,0 +1,30 @@
+.why-choose-us {
+  background-color: $grey;
+}
+
+.why-paragraph {
+  line-height: 2.5 !important;
+}
+.why-btn {
+  background-color: $orange !important;
+  color: $white !important;
+}
+
+.why-wrapper {
+  padding-left: 262px;
+  padding-right: 262px;
+}
+
+@media ($mid_device) {
+  .why-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media ($large_device) {
+  .why-wrapper {
+    margin-left: 262px !important;
+    margin-right: 262px !important;
+  }
+}
