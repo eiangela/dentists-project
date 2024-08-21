@@ -2,6 +2,7 @@
 import AppBar from '../components/AppBar.vue'
 import HeroBanner from '../components/HeroBanner.vue'
 import OurTeam from '../components/OurTeam.vue'
+import ContactUs from '../components/ContactUs.vue'
 </script>
 
 <template>
@@ -30,6 +31,10 @@ import OurTeam from '../components/OurTeam.vue'
 
   <section class="our-team">
     <OurTeam />
+  </section>
+
+  <section class="contact-us">
+    <ContactUs />
   </section>
 </template>
 ''

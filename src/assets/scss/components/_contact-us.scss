@@ -1,0 +1,49 @@
+.contact-terms {
+  color: $orange;
+}
+
+.btn-contact {
+  background-color: $orange !important;
+  color: $white !important;
+}
+
+.contact-image {
+  background-image: url('../images/min.jpg');
+  width: 100%;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -300px;
+}
+
+.bgn-color {
+   background-color: $orange;
+   color: $white;
+}
+
+@media ($mobile_device) {
+  .contact-image {
+    height: 352px;
+    margin-left: -50px;
+  }
+}
+
+@media ($tablet_device) {
+  .contact-image {
+    height: 400px;
+    margin-left: -50px;
+  }
+}
+
+@media ($mid_device) {
+  .contact-image {
+    margin-left: -150px;
+  }
+}
+
+@media ($large_device) {
+  .contact-image {
+    margin-left: -268px;
+  }
+}
