@@ -13,8 +13,8 @@
     <v-container max-width="1280">
       <v-row align-content="center">
         <v-col v-for="(member, index) in teamMembers" :key="index" cols="12" sm="6" md="4">
-          <v-card class="mx-auto pa-2" max-width="400" height="auto">
-            <v-img :src="member.image" aspect-ratio="16/9"></v-img>
+          <v-card class="mx-auto pa-2 rounded-te-xl" max-width="400" height="auto">
+            <v-img :src="member.image" aspect-ratio="1/1"></v-img>
             <v-card-text class="text-subtitle-1 font-weight-bold text-uppercase member-subtitle">{{
               member.title
             }}</v-card-text>

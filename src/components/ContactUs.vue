@@ -83,13 +83,15 @@ Pq minha foto não pega o container pai? gostaria que ela pegasse 100% do espaç
     </v-container>
   </div>
 
-  <v-container width="1280">
+  <v-container>
     <v-row>
-      <v-col v-for="(infos, i) in informations" :key="i" cols="12" sm="12" md="4">
-        <v-card height="200" variant="variant" class="bgn-color d-flex flex-column justify-center">
-          <v-card-title class="mb-0 ml-10 text-md-h5"> {{ infos.infoTitle }} </v-card-title>
+      <v-col v-for="(infos, i) in informations" :key="i" cols="12" sm="6" md="6" lg="4">
+        <v-card height="200" class="bgn-color d-flex flex-column justify-center mb-6">
+          <v-card-title class="ml-10 text-md-h5"> {{ infos.infoTitle }} </v-card-title>
           <v-card-text class="flex-grow-0 ml-10 text-md-h6"> {{ infos.infoNumber }} </v-card-text>
-          <v-card-text class="flex-grow-0 ml-10 text-md-h6"> {{ infos.infoNumber2 }} </v-card-text>
+          <v-card-text class="pt-0 flex-grow-0 ml-10 text-md-h6">
+            {{ infos.infoNumber2 }}
+          </v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -105,7 +107,7 @@ const informations = [
   {
     infoTitle: 'Call us',
     infoNumber: '(11) 6666-9999',
-    infoNumber2: '(11)9999-9999'
+    infoNumber2: '(11) 9999-9999'
   },
   {
     infoTitle: 'Location',

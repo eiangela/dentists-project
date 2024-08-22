@@ -3,6 +3,7 @@ import AppBar from '../components/AppBar.vue'
 import HeroBanner from '../components/HeroBanner.vue'
 import OurTeam from '../components/OurTeam.vue'
 import ContactUs from '../components/ContactUs.vue'
+import FooterPage from '../components/FooterPage.vue'
 </script>
 
 <template>
@@ -36,5 +37,9 @@ import ContactUs from '../components/ContactUs.vue'
   <section class="contact-us">
     <ContactUs />
   </section>
+
+  <footer class="footer-page">
+    <FooterPage />
+  </footer>
 </template>
 ''

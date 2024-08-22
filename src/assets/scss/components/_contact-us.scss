@@ -18,8 +18,8 @@
 }
 
 .bgn-color {
-   background-color: $orange;
-   color: $white;
+  background-color: $orange !important;
+  color: $white !important;
 }
 
 @media ($mobile_device) {
