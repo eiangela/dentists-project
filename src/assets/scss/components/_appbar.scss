@@ -1,9 +1,6 @@
-// .logo-image {
-//   margin-left: 150px;
-// }
-
-// .nav-icon-right {
-//   margin-right: 150px;
-// }
-
-
+@media ($mobile_device) {
+  .logo-image {
+    width: auto;
+    height: 34px;
+  }
+}
